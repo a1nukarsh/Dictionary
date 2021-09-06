@@ -172,3 +172,5 @@ const myJson = `{
 
   const myObj = JSON.parse(myJson)
   console.log("The object is :", myObj)
+  console.log("The results in the object are :", myObj['results'])
+  

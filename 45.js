@@ -184,7 +184,7 @@ const myJson = `{
       let results = myObj['results']
       let html = ""
       results.forEach(element => {
-          html+=`<li>One of the definitions of example is ${element.definition}</li>`
+          html+=`<li class="list-group-item list-group-item-action list-group-item-success">One of the definitions of example is ${element.definition}</li>`
       });
 
       let defs = document.getElementById('defs')
